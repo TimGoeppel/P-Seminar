@@ -1,1 +1,10 @@
 theme: jekyll-theme-cayman
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+plugins:
+  - jekyll-optional-front-matter
